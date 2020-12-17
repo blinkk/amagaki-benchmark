@@ -1,0 +1,15 @@
+$path: /content/pokemon/${doc.basename}/
+$localization:
+  path: /intl/${doc.locale.id}/content/pokemon/${doc.basename}/
+  locales:
+  - de_DE
+  - en_IE
+  - en_IN
+  - en_SG
+  - es_ES
+  - fr_FR
+  - it_IT
+  - ja_JP
+  - ko_KR
+  - zh_Hant_HK
+  - zh_Hant_TW
