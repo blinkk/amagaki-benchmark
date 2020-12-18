@@ -1,0 +1,5 @@
+static_dirs:
+- static_dir: /source/static/
+  serve_at: /static/
+- static_dir: /source/static/images/
+  serve_at: /static/images/

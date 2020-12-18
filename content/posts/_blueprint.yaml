@@ -1,0 +1,6 @@
+$path: /benchmark/{base}/
+$view: /views/base.html
+$localization:
+  path: /intl/{locale}/{base}/
+  locales:
+  - en

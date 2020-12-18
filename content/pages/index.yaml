@@ -1,13 +1,11 @@
 $path: /
 $localization:
-  path: /intl/${doc.locale.id}/
+  path: /intl/{locale}/
 title: Home
 description: Page description
 partials:
 - partial: hero
-  title: !a.String
-    prefer: Hello!
-    value: Hello!
+  title: Hello
   buttons:
   - label: Learn more - fo o
     url: https://example.com

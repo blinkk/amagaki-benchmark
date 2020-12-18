@@ -1,6 +1,7 @@
-$path: /content/pokemon/${doc.basename}/
+$path: /content/pokemon/{base}/
+$view: /views/base.html
 $localization:
-  path: /intl/${doc.locale.id}/content/pokemon/${doc.basename}/
+  path: /intl/{locale}/content/pokemon/{base}/
   locales:
   - de_DE
   - en_IE

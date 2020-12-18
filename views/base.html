@@ -3,10 +3,10 @@
 <title>{{doc.fields.title}}</title>
 <meta name="description" value="{{doc.fields.description}}">
 <link href="//fonts.googleapis.com/css?family=Nunito&amp;display=swap" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="{{a.static('/source/static/main.css').url.path}}">
+<link rel="stylesheet" href="{{g.static('/source/static/main.css').url.path}}">
 <body>
 <div class="main">
-    {% set partial = doc.pod.doc('/content/partials/header.yaml').fields %}
+    {% set partial = g.doc('/content/partials/header.yaml').fields %}
     {% include "/views/partials/header.njk" %}
     {% if doc.fields.partials %}
         {% for partial in doc.fields.partials %}
@@ -18,7 +18,7 @@
             {{doc.body|markdown|safe}}
         </div>
     {% endif %}
-    {% set partial = doc.pod.doc('/content/partials/footer.yaml').fields %}
+    {% set partial = g.doc('/content/partials/footer.yaml').fields %}
     {% include "/views/partials/footer.njk" %}
     {% include "/views/partials/debug.njk" %}
 </div>

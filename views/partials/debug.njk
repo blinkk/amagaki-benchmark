@@ -15,14 +15,14 @@
     {{env|safe}}
 
     Fields:
-    {% for key, val in doc.fields %}
+    {% for key, val in doc.fields._data.items() %}
         {{key}}: {{val}}
     {% endfor %}
 
-    Routes ({{pod.router.routes.length}}):
+    Routes ({{doc.pod.router.routes.length}}):
     <ul>
-        {% for route in pod.router.routes %}
-            <li><a href="{{route.url.path}}">{{route}}</a>
+        {% for route in doc.pod.router.routes.paths %}
+            <li><a href="{{route}}">{{route}}</a>
         {% endfor %}
     </ul>
 </div>

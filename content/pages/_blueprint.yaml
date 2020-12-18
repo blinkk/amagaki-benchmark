@@ -1,0 +1,13 @@
+$path: /{base}/
+$view: /views/base.html
+$localization:
+  path: /intl/{locale}/{base}/
+  locales:
+  - de
+  - en
+  - fi
+  - fr
+  - it
+  - ja
+  - ko
+  - nl
