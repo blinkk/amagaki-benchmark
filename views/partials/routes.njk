@@ -7,6 +7,7 @@
                 <td>{{"Title"|t}}</td>
             </tr>
         </thead>
+        {#
         {% for item in doc.pod.router.routes %}
             <tr>
                 <td>{{item.locale.id}}</td>
@@ -14,5 +15,6 @@
                 <td>{{item.doc.fields.title|t}}</td>
             </tr>
         {% endfor %}
+        #}
     </table>
 </div>

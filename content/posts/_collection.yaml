@@ -4,3 +4,4 @@ $localization:
   path: /intl/${doc.locale.id}/${doc.basename}/
   locales:
   - en
+  - en_US
