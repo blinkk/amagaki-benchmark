@@ -20,9 +20,11 @@
     {% endfor %}
 
     Routes ({{doc.pod.router.routes.length}}):
+    {#
     <ul>
         {% for route in doc.pod.router.routes.paths %}
             <li><a href="{{route}}">{{route}}</a>
         {% endfor %}
     </ul>
+    #}
 </div>

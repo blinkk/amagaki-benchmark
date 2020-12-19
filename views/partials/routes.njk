@@ -7,10 +7,12 @@
                 <td>{{"Title"}}</td>
             </tr>
         </thead>
+        {#
         {% for route in doc.pod.router.routes.paths %}
             <tr>
                 <td>{{route}}
             </tr>
         {% endfor %}
+        #}
     </table>
 </div>
