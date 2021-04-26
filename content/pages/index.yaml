@@ -5,7 +5,7 @@ title: Home
 description: Page description
 partials:
 - partial: hero
-  title: !a.String
+  title: !pod.string
     prefer: Hello!
     value: Hello!
   buttons:

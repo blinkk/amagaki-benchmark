@@ -4,4 +4,4 @@ partials:
   title: Hello World! Test Foo Bar
   body: This is a really fast change.
   images:
-  - static: !a.Static /source/static/images/cat.jpg
+  - static: !pod.staticFile /source/static/images/cat.jpg
